@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-advancedjs-hw-02/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoIT | Homework 2</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/1-timer.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/styles--QLdCoB7.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/styles-P54CNH_Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-CZjNVMTf.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="nav-logo" href="./index.html" aria-label="Site logo">
+            <svg class="nav-logo-icon" width="100" height="30">
+              <use href="/goit-advancedjs-hw-02/assets/sprite-E8vg0sBb.svg#logo"></use>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="timer-wrap">
+          <input class="picker" type="text" id="datetime-picker" />
+          <button class="btn-start" type="button" data-start>Start</button>
+          <button
+            class="btn-reload"
+            value="Refresh Page"
+            onClick="window.location.href=window.location.href"
+          >
+            Reload page
+          </button>
+        </div>
+
+        <div class="timer">
+          <div class="field">
+            <span class="value" data-days>00</span>
+            <span class="label">Days</span>
+          </div>
+          <div class="field">
+            <span class="value" data-hours>00</span>
+            <span class="label">Hours</span>
+          </div>
+          <div class="field">
+            <span class="value" data-minutes>00</span>
+            <span class="label">Minutes</span>
+          </div>
+          <div class="field">
+            <span class="value" data-seconds>00</span>
+            <span class="label">Seconds</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-desc">
+          Made with ✨ by
+          <a
+            class="footer-link"
+            href="https://goit.global/ua/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GoIT team
+          </a>
+        </p>
+      </div>
+    </footer>
+
+  </body>
+</html>
